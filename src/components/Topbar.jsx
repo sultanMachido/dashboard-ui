@@ -13,7 +13,7 @@ function Topbar() {
           TransMonitor
         </h2>
       </div>
-      <div className='flex w-5/12 ml-14 '>
+      <div className='flex w-8/12 ml-14 '>
         <img
           src={SearchIcon}
           style={{ width: "12px", height: "12px" }}
@@ -22,17 +22,17 @@ function Topbar() {
         />
         <input placeholder='Search...' className='pl-4 pt-0 w-5/12 h-8' />
       </div>
-      <div className='flex justify-around w-5/12'>
+      <div className='flex justify-around w-3/12'>
         <p>Support</p>
         <p>FAQ</p>
         <Badge badgeContent={8} color='primary'>
           <NotificationsNoneIcon color='action' />
         </Badge>
       </div>
-      <div className='flex  w-52' id={styles.profile}>
+      <div className='flex justify-around w-2/12' id={styles.profile}>
         <div>
-          <p className='text-xs text-right'>Hello</p>
-          <p>Oluwaleke Ojo</p>
+          <p className='text-xs text-right'>Hello<br/><span className="text-base">Oluwaleke Ojo</span></p>
+          {/* <p>Oluwaleke Ojo</p> */}
         </div>
         <div>
           <img src={ProfileImage} alt='profile' className='rounded-full' />
