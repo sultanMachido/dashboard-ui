@@ -56,9 +56,11 @@ const others = [
 function Sidebar() {
   return (
     <div className='bg-white w-80 h-screen mt-1 '>
-      <button className='bg-green-600 rounded-2xl w-40 h-8 mt-5'>
-        <p className='text-xs text-white'>GENERATE INVOICE</p>
-      </button>
+      <div className="w-60">
+        <button className='bg-green-600 rounded-2xl w-40 h-8 mt-5'>
+          <p className='text-xs text-white'>GENERATE INVOICE</p>
+        </button>
+      </div>
       <div className='mt-10'>
         <div className=' mb-10'>
           <div>
