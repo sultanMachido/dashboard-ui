@@ -3,7 +3,8 @@ import "./App.css";
 import Topbar from "./components/Topbar";
 import Sidebar from "./components/Sidebar";
 import ChartBoxList from "./components/ChartBoxList";
-import chart from "./images/chart.png"
+import chart from "./images/chart.png";
+import Report from "./components/Report";
 
 const chartData = [
   {
@@ -36,6 +37,7 @@ function App() {
         <Sidebar />
         <div className="w-9/12">
           <ChartBoxList data={chartData} />
+          <Report />
         </div>
       </div>
     </div>

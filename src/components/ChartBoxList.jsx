@@ -2,7 +2,7 @@ import React from "react";
 import ChartBox from "./ChartBox";
 
 function ChartBoxList({data}){
-    return <div className="flex w-full justify-around mt-5">
+    return <div className="flex w-full justify-around mt-10">
       {data.map(info=><ChartBox transInfo={info}/>)}
     </div>
 }
