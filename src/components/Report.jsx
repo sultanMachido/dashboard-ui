@@ -2,7 +2,7 @@ import React from "react";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import reportChart from "../images/Gradient.png";
-import LinearProgress from "@mui/material/LinearProgress";
+
 
 function Report() {
   return (
